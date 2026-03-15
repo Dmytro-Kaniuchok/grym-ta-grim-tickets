@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Гурт Грим та Грім</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-nav">
+        <div class="logo">G&G</div>
+
+        <nav>
+          <a href="#about">Про гурт</a>
+          <a href="#concerts">Концерти</a>
+          <a href="#gallery">Галерея</a>
+          <a href="#contacts">Контакти</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <h1 class="title">Грим та грім</h1>
+
+          <p class="subtitle">
+            Справжній український рок, який гуркоче в серці.
+          </p>
+
+          <p class="description">
+            «Грим та Грім» - це поєднання потужних гітарних рифів, чесних
+            текстів і вибухової енергії сцени. Ми граємо для тих, хто цінує
+            живий звук, свободу та силу музики.
+          </p>
+
+          <p class="description">
+            Наші концерти - це завжди контакт з залом, драйв і емоції.
+            Приєднуйся до нас на найближчих виступах і відчуй цей саунд наживо!
+          </p>
+
+          <button type="button" class="order-btn">Замовити квиток</button>
+        </div>
+      </section>
+
+      <section id="concerts" class="concerts-container">
+        <h2>Найближчі концерти</h2>
+
+        <table>
+          <tr>
+            <th>Місто / Заклад</th>
+            <th>К-сть місць</th>
+            <th>Дата і час</th>
+            <th></th>
+          </tr>
+
+          <tr>
+            <td>Київ - Docker-G Pub</td>
+            <td>250</td>
+            <td>25.10.25, 19:00</td>
+            <td><button class="btn">Замовити квиток</button></td>
+          </tr>
+
+          <tr>
+            <td>Львів - IFESTrepublic</td>
+            <td>400</td>
+            <td>01.11.25, 20:00</td>
+            <td><button type="button" class="btn">Замовити квиток</button></td>
+          </tr>
+
+          <tr>
+            <td>Одесса - Зелен театр</td>
+            <td>700</td>
+            <td>09.11.25, 19:30</td>
+            <td><button type="button" class="btn">Замовити квиток</button></td>
+          </tr>
+
+          <tr>
+            <td>Харків - ArtZavod</td>
+            <td>500</td>
+            <td>16.11.25, 19:00</td>
+            <td><button type="button" class="btn">Замовити квиток</button></td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="members-container">
+        <h2>Учасники гурту</h2>
+
+        <div class="cards">
+          <div class="card">
+            <img src="#" alt="Максим — гітара" />
+            <p>Максим - Гітара</p>
+          </div>
+
+          <div class="card">
+            <img src="#" alt="Олена — вокал" />
+            <p>Олена — вокал</p>
+          </div>
+
+          <div class="card">
+            <img src="#" alt="Тарас — барабани" />
+            <p>Тарас — барабани</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="about-container">
+          <div>
+            <h2>Наша історія</h2>
+
+            <p>
+              «Грим та Грім» народився з бажання створювати музику, яка
+              відчувається серцем. Ми почали свій шлях у маленькій студії в
+              центрі Києва, де кожен акорд, кожне слово було наповнене емоціями
+              та переживаннями. Це було місце, де народжувалися наші перші
+              пісні, де ми вчилися грати разом як єдиний організм.
+            </p>
+            <p>
+              За роки нашої діяльності ми виступили на десятках сцен, від
+              невеликих клубів до великих фестивалів. Наша музика — це поєднання
+              традиційного року з сучасними елементами, що робить її унікальною
+              та пізнаваною. Ми не боїмося експериментувати зі звуком, додаючи
+              електронні елементи або народні інструменти.
+            </p>
+            <p>
+              Кожен наш виступ — це не просто концерт, а справжня подія, де ми
+              ділимося своєю енергією з глядачами та створюємо неповторну
+              атмосферу. Ми віримо, що музика має силу об’єднувати людей,
+              створювати спільноти та надихати на зміни.
+            </p>
+            <p>
+              Наш колектив складається з досвідчених музикантів, кожен з яких
+              привносить свій унікальний стиль та бачення. Максим створює
+              неймовірні гітарні рифи, Олена зачаровує своїм вокалом, а Тарас
+              тримає ритм, який змушує серця битися в унісон з музикою.
+            </p>
+          </div>
+
+          <div class="image">
+            <img src="#" alt="Зображення" />
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="contacts container">
+        <h2>Зв'яжись з нами</h2>
+
+        <div class="contact">
+          <form action="#">
+            <input type="text" placeholder="Ім'я" />
+            <input type="email" placeholder="Email" />
+
+            <textarea placeholder="Повідомлення"></textarea>
+
+            <button class="send-btn">Відправити</button>
+          </form>
+
+          <div class="map">
+            <iframe
+              src="https://maps.google.com/maps?q=kyiv&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              loading="lazy"
+              title="Мапа розташування"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer">
+        <p>© 2025 Грим та Грім</p>
+
+        <div>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+          ·
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >YouTube</a
+          >
+          ·
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Facebook</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
